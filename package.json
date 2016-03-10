@@ -1,0 +1,37 @@
+{
+    "name": "ts-eventemitter",
+    "version": "4.3.0",
+    "description": "Event based TypeScript for the browser",
+    "main": "event-emitter.js",
+    "directories": {
+        "doc": "docs",
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/atd-schubert/typescript-event-emitter.git"
+    },
+    "keywords": [
+        "eventemitter",
+        "events",
+        "browser",
+        "typescript"
+    ],
+    "scripts": {
+        "tsc": "tsc --out event-emitter.js event-emitter.ts"
+    },
+    "author": "Arne Schubert <atd.schubert@gmail.com>",
+    "license": "Unlicense",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/Olical/EventEmitter/issues"
+    },
+    "devDependencies": {
+        "uglify-js": "*",
+        "mocha": "*",
+        "chai": "*",
+        "dox": "*",
+        "dustjs-linkedin": "*",
+        "dustjs-helpers": "*"
+    }
+}
